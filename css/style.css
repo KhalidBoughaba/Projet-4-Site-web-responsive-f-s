@@ -1,5 +1,5 @@
 /* Start Variables */
-:root{
+:root {
   --main-color: #10cab7;
 }
 /* End Variables */
@@ -137,11 +137,11 @@ body {
 /*End Header*/
 
 /*Start Landing Section*/
-.landing{
+.landing {
   background-image: url(../img/fes4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:calc(100vh - 190px);
+  height: calc(100vh - 190px);
   position: relative;
 }
 .landing .intro-text {
@@ -158,7 +158,6 @@ body {
   font-weight: bold;
   font-size: 50px;
   color: var(--main-color);
-
 }
 .landing .intro-text p {
   font-size: 19px;
@@ -167,21 +166,33 @@ body {
 /*End Landing Section*/
 
 /* Start Features */
-.features{
-  padding-top:60px;
-  padding-bottom:60px;
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f6f6f6;
 }
 
-.features .container{
+.features .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 10px;
-  
 }
-.features .feat i{
-  color:var(--main-color);
-  font-size: 20px;
-  
+.features .feat {
+  padding: 20px;
+  text-align: center;
 }
+.features .feat i {
+  color: var(--main-color);
+  font-size: 50px;
+}
+.features .feat h3 {
+  font-weight: 800px;
+  margin: 20px 0;
+}
+.features .feat p {
+  line-height: 1.8;
+  color: #777;
+  font-size: 18px;
+}
+
 /* End Features */
